@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxiral - Register</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="right-panel">
+            <div class="logo">Hi-welcome to Luxiral</div>        
+            <h2 class="form-title">Register your account</h2>
+            <form id="register-form">
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" placeholder="Enter your first name">
+                    </div>
+                    <div class="input-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" placeholder="Enter your surname">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                   <div class="input-group"> <label for="email">Mobile number or email address</label>
+                    <input type="text" id="email" placeholder="Enter your email or mobile number">
+                   </div>
+                    <div class="input-group">
+                            <Label For="Langugue">Langugue</label>
+                            <Select Name="Langugue" Langugue>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                           </Select>
+                        </div>
+                </div>
+
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm your password">
+                    </div>
+                </div>
+                
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+            
+            <div class="divider">
+                <span>Or Login With</span>
+            </div>
+            
+            <div class="social-login">
+                <button class="social-btn">
+                    <i class="fab fa-google"></i> Sign up with Google
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+ </html>

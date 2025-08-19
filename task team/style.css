@@ -1,0 +1,263 @@
+ .body{ 
+margin: 0px;
+padding: 0px;
+font-family: 'Courier New', Courier, monospace;
+overflow-x: hidden;
+}
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    top: 0;
+}
+
+#header-logo img{
+display: flex;
+margin: 10px;
+width: 100%;
+height: 29px;
+}
+nav{
+display: flex;
+gap: 20px;
+ flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    color: #000;
+    
+}
+nav a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    color: #000;
+}
+#image-BR-Architects{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+#image-BR-Architects img{
+    width: 100%;
+    height: auto;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+/*  
+.projects.photo {
+    display: flex;
+    flex-wrap: row;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.w3-display-container {
+    position: relative;
+    width: 60%;
+    height: auto;
+}
+.w3-display-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#img-container {
+    width: 270px;
+    
+}
+#img-container img 
+{
+    width: 100%;
+}*/
+#image-projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#image-projects img {
+    width: 100%;
+    height: auto;
+}
+
+ .about-section-paragraph-text {
+    color: #757575;
+} 
+
+/* #about-section-paragraph-text {
+    background-color: #eee;
+    color: black;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    height: 29px;
+}
+.photo {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.card {
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    border: 1px solid #eee;
+    height: 29px;
+}
+
+.btn:hover {
+    background-color: #757575;
+}
+
+
+.about
+{
+    width: 95%;
+}
+
+ hr
+{
+    opacity: 0.2;
+}
+h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            font-size: 26px;
+}
+main
+{ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    gap: 70px;
+    margin-top: 50px;
+
+}
+main >div 
+{
+    width: 95%;
+         
+
+}
+.contact  * ,footer
+{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+
+.contact .contact-title p
+{
+    font-size: 17px;
+}
+
+
+
+.contact .contact-input form
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact .contact-input form input
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+}
+.contact .contact-input form input
+{
+    font-size: 18px;
+}
+
+.contact .contact-input form button
+{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 11px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 0px;
+    border: none;
+}
+
+.contact .contact-input form button:hover
+{
+background-color: rgba(0, 0, 0, 0.174);
+color: black;
+}
+
+.location-img
+{
+    height: 90vh;
+    
+}
+.location-img img
+{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+    
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            font-size: 17px;
+            margin-top: 10px;
+
+}
+footer a
+{
+    color: white;
+}
