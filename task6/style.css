@@ -48,6 +48,7 @@
         .product-card {
             background: white;
             border-radius: 10px;
+            width: 180px;
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
@@ -59,9 +60,9 @@
         }
         
         .product-image {
-            height: 200px;
-            background-color: #f5f5f5;
-            display: flex;
+            height: 150px;
+            width: 150px;
+            background-color: rgb(224, 224, 224);
             align-items: center;
             justify-content: center;
             overflow: hidden;
@@ -70,6 +71,11 @@
         .product-image-placeholder {
             font-size: 4rem;
             color: #ddd;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .product-info {
