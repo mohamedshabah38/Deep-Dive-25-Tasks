@@ -150,7 +150,6 @@ main {
     font-weight: 600;
 }
 
-/* Footer Section */
 .main-footer {
     background-color: var(--dark-blue);
     color: var(--footer-text-color);
