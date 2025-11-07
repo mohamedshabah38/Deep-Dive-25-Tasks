@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive - Create an account</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main class="main-content">
+        <div class="image-section">
+            <img src="./assets/create-account-image.png" alt="An illustration of a person creating an account.">
+        </div>
+        <div class="form-section">
+            <h2>Create an account</h2>
+            <p>Enter your details below</p>
+            <form action="/create-account" method="post">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email or Phone Number" name="email_or_phone" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <button type="submit" class="create-account-btn">Create Account</button>
+                <button class="google-btn"><i class="fab fa-google"></i> Sign up with Google</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="../login/index.html">Log in</a></p>
+        </div>
+    </main>
+</body>
+</html>

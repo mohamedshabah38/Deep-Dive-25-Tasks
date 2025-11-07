@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive - Log In</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-content">
+        <div class="image-section">
+            <img src="./assets/login-illustration.png" alt="A person with a key and padlock, representing security.">
+        </div>
+        <div class="form-section">
+            <h2>Log in to Exclusive</h2>
+            <p>Enter your details below</p>
+            <form action="/login" method="POST">
+                <input type="text" name="email_or_phone" placeholder="Email or Phone Number" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <div class="form-buttons">
+                    <button type="submit" class="log-in-btn">Log In</button>
+                    <a href="#" class="forgot-password">Forget Password?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
